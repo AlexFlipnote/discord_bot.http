@@ -218,7 +218,7 @@ class FunCommands(commands.Cog):
     @commands.command()
     async def dice(self, ctx: Context):
         """ Dice game. Good luck """
-        bot_dice, player_dice = [random.randint(1, 6) for g in range(2)]
+        bot_dice, player_dice = [random.randint(1, 6) for _ in range(2)]
 
         results = "\n".join([
             f"**{self.bot.user.name}:** 🎲 {bot_dice}",
