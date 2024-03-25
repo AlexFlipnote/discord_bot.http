@@ -1,11 +1,12 @@
-FROM python:3.11-alpine
-LABEL maintainer="AlexFlipnote <root@alexflipnote.dev>"
+FROM python:3.12-alpine
 
-LABEL build_date="2023-11-23"
-RUN apk update && apk upgrade
+WORKDIR /app
+
+COPY requirements.txt .
+
 RUN apk add --no-cache git make build-base linux-headers
-WORKDIR /discord_bot
-COPY . .
 RUN pip install --no-cache-dir -r requirements.txt
+RUN apk del git make build-base linux-headers
 
+COPY . .
 CMD ["python", "-u", "index.py"]
