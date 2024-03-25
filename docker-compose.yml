@@ -3,4 +3,6 @@ services:
     container_name: "discord_bot.http"
     build: .
     env_file:
-    - .env
+      - .env
+    ports:
+      - "8080:8080"
