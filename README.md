@@ -8,7 +8,7 @@ Do you need more help? Visit my server here: **https://discord.gg/AlexFlipnote**
 - Discord bot
 
 ## Useful to always have
-Keep [this](https://discordhttp.dev/) saved somewhere, as this is the docs to discord.http.
+Keep [this](https://discordhttp.alexflipnote.dev/) saved somewhere, as this is the docs to discord.http.
 All you need to know about the library is defined inside here, even code that I don't use in this example is here.
 
 This code is also made to be as typing friendly as possible with comments and everything.
@@ -19,7 +19,7 @@ I recommend having Visual Studio Code with the Python extension installed to hel
 2. Rename the file **.env.example** to **.env**, then fill in the required spots, such as token, prefix and game
 3. To install what you need, do **pip install -r requirements.txt**
 4. Start the bot by having the cmd/terminal inside the bot folder and type **python index.py**
-5. Make sure that your Discord bot has an Interaction URL to communicate with. You can read [here](https://discordhttp.dev/pages/getting_started.html) on how to set it up. The TLDR is that you need to expose your IP/domain to the public in order for Discord to communicate with your bot.
+5. Make sure that your Discord bot has an Interaction URL to communicate with. You can read [here](https://discordhttp.alexflipnote.dev/pages/getting_started.html) on how to set it up. The TLDR is that you need to expose your IP/domain to the public in order for Discord to communicate with your bot.
 6. You're done, enjoy your bot!
 
 ## FAQ
