@@ -1,7 +1,7 @@
 # discord_bot.http
 🍺 A simple discord bot that helps you getting started within discord.http
 
-Do you need more help? Visit my server here: **https://discord.gg/AlexFlipnote** 🍺
+Do you need more help? Visit my server here: **https://discord.gg/yqb7vATbjH** 🍺
 
 ## Requirements
 - Python 3.11 - https://www.python.org/downloads/
